@@ -10,6 +10,10 @@
             string name = Console.ReadLine();
 
             Console.WriteLine($"Hello {name}, How are you");
+
+            string response = Console.ReadLine();
+
+            Console.WriteLine($"I am glad that you are {response}");
         }
     }
 }
